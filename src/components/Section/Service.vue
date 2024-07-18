@@ -2,8 +2,8 @@
     <section class="services container">
         <div>
              <div>
-                <Headings heading="Xizmatlar"/>
-                <Headings descript="Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar"/>
+                <Headings variant="black" heading="Xizmatlar"/>
+                <Headings variant="black" descript="Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar"/>
             </div>
             <div class="cards">
                     <div>

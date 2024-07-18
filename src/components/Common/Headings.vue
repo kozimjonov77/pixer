@@ -1,30 +1,41 @@
 <template>
-    <div>
         <div class="service">
-            <h2 class="headings font-bold text-2xl"> {{ heading }} </h2>
-            <p class="text font-normal text-base items-center my-4"> {{ descript }} </p>
+            <h2 :class="cardsStyles()" class="headings font-bold text-2xl"> {{ heading }} </h2>
+            <p :class="cardsStyles()"  class="text font-normal text-base items-center my-4"> {{ descript }} </p>
         </div>
-        <div class="service">
-            <h2 class="headings font-bold text-2xl text-white"> {{ heading_white }} </h2>
-            <p class="text font-normal text-base items-center my-4 text-white"> {{ descript_white }} </p>
-        </div>
-    </div>
-    
 </template>
 
 <script setup>
 import { defineProps } from 'vue'
-defineProps({
+const props = defineProps({
     heading: String,
     descript: String,
-    heading_white: String,
-    descript_white: String
+    variant: String
 })
+
+const cardsStyles = () => {
+    switch (props.variant) {
+        case 'black':
+            return 'black'
+            break;
+        case 'white':
+            return 'white'
+            break
+    }
+}
 </script>
 
 <style scoped>
 .service{
     text-align: center;
     padding: 0 280px;
+}
+
+.black{
+    color: #000000;
+}
+
+.white{
+    color: #FFFFFF;
 }
 </style>

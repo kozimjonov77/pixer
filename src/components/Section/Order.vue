@@ -1,8 +1,8 @@
 <<template>
     <section class="bg-[#00BAFC] py-14">
         <div>
-            <Headings heading_white="Biz qanday ishlaymiz?"/>
-            <Headings descript_white="Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar"/>
+            <Headings variant="white" heading="Biz qanday ishlaymiz?"/>
+            <Headings variant="white" descript="Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar"/>
         </div>
         <div class="mx-auto max-w-[348px]">
             <form class="grid grid-cols-1 p-6 bg-white rounded-lg">

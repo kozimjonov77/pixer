@@ -31,6 +31,7 @@
     </header>
 </template>
 
+
 <script setup>
 import Logo from '../Common/Logo.vue'
 import Buttons from '../Common/Buttons.vue'
